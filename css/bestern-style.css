@@ -1,3 +1,49 @@
 body { 
-background-color:#ecf0f1 ;
+background-color: #ecf0f1;
+background-size: 100% 100%;
+margin: 0;
+}
+
+#main-img > img {
+	width: 100%;
+}
+
+#logo-img > img {
+
+}
+
+.navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: inline;
+	
+}
+
+.navbar li {
+	float: right;
+}
+
+.navbar a:link, a:visited {
+	display: block;
+	width: 90px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #34495e;
+	text-align: ecnter;
+	padding: 5px;
+	text-decoration: none;
+	text-transform: uppercase;
+
+}
+
+.navbar a:hover, a:active {
+	background-color: #80B2B2
+}
+
+#message-to-brendan {
+
+	font-family: "Trebuchet MS";
+	font-size: 25px;
+	text-align: center;
 }
