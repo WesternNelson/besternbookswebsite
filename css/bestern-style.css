@@ -8,6 +8,120 @@ body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+#menu-toggle {
+	position: fixed;
+	top: 0;
+	right: 0;
+	margin: 5px 5px 0 0;
+}
+
+.btn-menu-dark {
+    border-radius: 0;
+    color: #fff;
+    background-color: rgba(0,0,0,0.4);
+    z-index: 1;
+    float: right;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.333333;
+    cursor: pointer;
+    border:1px solid;
+}
+
+.btn-menu-dark:hover,
+.btn-menu-dark:focus,
+.btn-menu-dark:active {
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.btn--menu-light {
+    border-radius: 0;
+    color: #333;
+    background-color: rgb(255,255,255);
+}
+
+.btn-menu-light:hover,
+.btn-menu-light:focus,
+.btn-menu-light:active {
+    color: #333;
+    background-color: rgba(255,255,255,0.8);
+}
+
+.navbar-wrapper {
+	display: block;
+	box-sizing: block;
+	z-index: 1000;
+	position: fixed;
+	right 0;
+	width: 250px;
+	height: 100%;
+	margin-right: -250px;
+	overflow-y: auto;
+	background: #222;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.navbar-sidebar {
+	position: absolute;
+	top: 0;
+	width: 250px;
+	margin: 0; 
+	padding: 0;
+	list-style: none;
+}
+
+.navbar-sidebar li {
+	text-indent: 20px;
+	line-height: 40px;
+}
+
+.navbar-sidebar li a {
+	display: block;
+	text-decoration: none;
+	color: #999;
+}
+
+.navbar-sidebar li a:hover {
+	text-decoration: none;
+	color: #fff;
+	background: rgba(255,255,255,0.2);
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+}
+
+.navbar-sidebar li a:active,
+.navbar-sidebar li a:focus {
+	text-decoration: none;
+}
+
+.small-logo-img-p1 > img {
+	height: 40px;
+	left: 40px;
+	top: 28px;
+	width: 45px;
+	display: inline;
+}
+
+.small-logo-img-p2 > img {
+	height: 30px;
+	left: 90px;
+	top: 32px;
+	width: 200px;
+	display: inline;
+}
+
 
 .header { 
 	display:table;
@@ -37,12 +151,12 @@ body {
 }
 
 
-#logo-img > img {
+.logo-img > img {
 	opacity: .5;
 
 }
 
-.navbar ul {
+/*.navbar ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -70,7 +184,7 @@ body {
 .navbar a:hover, a:active {
 	background-color: #80B2B2
 }
-
+*/
 #message-to-brendan {
 
 	font-family: "Trebuchet MS";
